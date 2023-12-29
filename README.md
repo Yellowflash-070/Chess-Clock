@@ -274,6 +274,11 @@ endmodule
 
 * In case if a reset signal (rst) is asserted the value on both the timer gets reset to zero.
 
+
+<br>
+
+**NOTE: All coding and simulations are performed under Vivado Design suite 2020.2 edition.**
+
   
 
 
