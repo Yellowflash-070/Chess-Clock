@@ -13,7 +13,7 @@ A two player digital chess clock system used to keep track of time in hrs:mins:s
 
 Whenever a new game begins, the control is initially in the (Stop_Wait) state and both the timers A and B hold their respective values (which is 0 secs when the game starts).
 
-Whenever a player (Let's say Player A) is to make the first move, then Player B needs to start the game my pressing his/her push button (Pb). This will force start Player A's timer by asserting (Ta) signal in order to record time taken by Player A to make the first move. The control at this moment is in (RunA) state.
+Whenever a player (Let's say Player A) is to make the first move, then Player B needs to start the game by pressing his/her push button (Pb). This will force start Player A's timer by asserting (Ta) signal in order to record time taken by Player A to make the first move. The control at this moment is in (RunA) state.
 
 Whenever Player A makes his/her move, he/she needs to press his/her push button (Pa). This will force stop Player A's timer by deasserting (Ta) signal which in turn force starts Player B's timer by asserting (Tb) signal in order to record time taken by Player B to make their move. The control at this moment is in (RunB) state.
 
@@ -277,7 +277,7 @@ endmodule
 
 <br>
 
-**NOTE: All coding and simulations are performed under Vivado Design suite 2020.2 edition.**
+**NOTE: All coding and simulations are performed in Vivado Design suite 2020.2 edition.**
 
   
 
